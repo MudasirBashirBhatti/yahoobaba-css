@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>only-child</title>
+    <style>
+        .one li:only-child{
+            color: red;
+        }
+        .two li:only-child{     /*this code will not work because there are many children in .two*/
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>:only-child</h1>
+    <p>This will work only if the parent element has only one child. and will not work if two or more same or different child are present in that parent.</p>
+    <ul class="one">
+        <li>Lorem ipsum dolor sit.</li>
+    </ul>
+
+    <ul class="two">
+        <li>1 Lorem ipsum dolor sit.</li>
+        <li>2 Lorem ipsum dolor sit.</li>
+        <li>3 Lorem ipsum dolor sit.</li>
+    </ul>
+</body>
+</html>

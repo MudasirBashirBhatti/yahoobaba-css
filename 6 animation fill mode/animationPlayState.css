@@ -1,0 +1,39 @@
+div{
+    width: 180px;
+    height: 180px;
+    color: white;
+    font-size: 2rem;
+    background-color: black;
+    margin: 50px auto;
+    animation: animationFill 5s ease 2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-play-state: paused;
+}
+div:hover{
+    /* This will pause the animation when we hover our mouse  */
+    /* animation-play-state: paused; */
+    /* this will start the animation when we hover over on a div  */
+    animation-play-state: running;
+}
+@keyframes animationFill {
+    0%{
+        color: yellow;
+        border-radius: 0%;
+        background-color: red;
+        border: 3px solid red;
+    }
+    50%{
+        color: rgb(255, 255, 255);
+        border-radius: 50%;
+        background-color: rgb(35, 150, 0);
+        border: 3px solid red;
+    }
+    100%{
+        color: rgb(255, 0, 0);
+        border-radius: 0%;
+        background-color: rgb(0, 162, 255);
+        border: 3px solid rgb(9, 255, 0);
+    }
+}

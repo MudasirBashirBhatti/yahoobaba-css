@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*1 nth child styling  */
+        .first li:nth-child(1){
+            color: red;
+        }
+        .first li:nth-child(5){
+            color: blue;
+        }
+        /* we can use any number multiply with n like 3 or any number. */
+        .second li:nth-child(2n){
+            color: red;
+        }
+        .second li:nth-child(2n+1){
+            color: green;
+        }
+        /* 2 nth last child styling  */
+        /* it works same like nth-child but starts from end  */
+        .third li:nth-last-child(2){
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>nth-child( )</h1>
+    The difference between nth-child and nth nth-last-of-type is the nth-child required a parent to target child.but nth-last-of-type do not required any parent to target the child.
+    <ul class="first">
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Dignissimos incidunt esse officiis quidem.</li>
+        <li>Illo labore hic saepe blanditiis.</li>
+        <li>Perspiciatis molestias quae laborum maiores?</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+    </ul>
+
+    <ul class="second">
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Dignissimos incidunt esse officiis quidem.</li>
+        <li>Illo labore hic saepe blanditiis.</li>
+        <li>Perspiciatis molestias quae laborum maiores?</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+    </ul>
+<h1>nth-last-child( )</h1>
+    <ul class="third">
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Adipisci tempora pariatur unde.</li>
+        <li>Pariatur quia accusamus molestiae?</li>
+        <li>Quisquam quas repudiandae aliquid?</li>
+    </ul>
+</body>
+</html>

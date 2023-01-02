@@ -1,0 +1,30 @@
+
+h1{
+    font-size: 3vw;
+    color: red;
+    text-align: center;
+}
+ol li{
+    list-style-position: inside;
+}
+span{
+    color: brown;
+}
+.box{
+    width: 800px;
+    height: 300px;
+    padding: 25px;
+    border: 20px dotted black;
+    background-image: url(./Penguins.jpg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+}
+#padding-box{
+    background-origin: padding-box;
+}
+#border-box{
+    background-origin: border-box;
+}
+#content-box{
+    background-origin: content-box;
+}

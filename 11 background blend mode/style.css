@@ -1,0 +1,37 @@
+body{
+    background-image:linear-gradient(to right, rgb(0, 81, 255), rgb(255, 238, 0)) ,url(./Penguins.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-blend-mode: color;
+    /* background-blend-mode: color-burn; */
+    /* background-blend-mode: color-dodge; */
+    /* background-blend-mode: darken; */
+    /* background-blend-mode: difference; */
+    /* background-blend-mode: exclusion; */
+    /* background-blend-mode: hard-light; */
+    /* background-blend-mode: hue; */
+    /* background-blend-mode: lighten; */
+    /* background-blend-mode: luminosity; */
+    /* background-blend-mode: multiply; */
+    /* background-blend-mode: normal; */
+    /* background-blend-mode: overlay; */
+    /* background-blend-mode: saturation; */
+    /* background-blend-mode: screen; */
+    /* background-blend-mode: soft-light; */
+
+
+}
+h1{
+    font-size: 3vw;
+    color: red;
+    text-align: center;
+}
+ol li{
+    list-style-position: inside;
+}
+span{
+    color: brown;
+}

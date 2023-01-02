@@ -1,0 +1,5 @@
+div:hover::after{
+    /* in attribute function we add the attribute name in attr brackets  */
+    content: attr(data-second);
+    color: red;
+}

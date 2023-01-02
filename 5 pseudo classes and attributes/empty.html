@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>empty pseudo class</title>
+    <style>
+        /* this will selects only element that is empty.  */
+        div:empty{ 
+            border: 3px solid rgb(72, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <div>hello</div>
+    <div></div>
+    <ul>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+        <li>hello</li>
+    </ul>
+    <div></div>
+</body>
+</html>

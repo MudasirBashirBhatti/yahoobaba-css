@@ -1,0 +1,63 @@
+body{
+    /* background-image: url(./Penguins.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+h1{
+    font-size: 3vw;
+    color: red;
+    text-align: center;
+
+}
+ol li{
+    list-style-position: inside;
+    color: black;
+}
+span{
+    color: rgb(0, 248, 12);
+}
+ol{
+    color: rgb(255, 0, 119);
+    font-size: 2vw;
+}
+hr{
+    margin: 4em;
+}
+
+/* .........................................................  */
+.box{
+    width: 700px;
+    height: 200px;
+    border: 20px dotted black;
+    padding: 4em;
+    margin: auto;
+    background-color: rgba(0, 105, 112, 0.425);
+}
+#padding-box{
+    background-clip: padding-box;
+}
+#border-box{
+    background-clip: border-box;
+}
+#content-box{
+    background-clip: content-box;
+}
+#text{
+    /* we use this property with prefixes because this is experimental  */
+    color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+
+
+    background-image:url(./Penguins.jpg);
+    background-blend-mode: color;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0;
+    font-size: 6rem;
+    text-align: center;
+    border: none;
+}

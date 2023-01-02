@@ -1,0 +1,12 @@
+.content{
+    width: 50%;
+    background-color: beige;
+    margin: auto;
+    padding: 1em;
+}
+h1{
+    color: red;
+}
+span{
+    color: rgb(0, 132, 255);
+}

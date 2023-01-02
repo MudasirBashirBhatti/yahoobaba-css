@@ -1,0 +1,35 @@
+h1{
+    color: red;
+    text-align: center;
+    border-bottom: 3px solid red;
+}
+.parent{
+    color: rgb(245, 0, 163);
+    border: 2px solid currentColor;
+    width: 80%;
+    height: 300px;
+}
+h2{
+    color: currentColor;
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
+}
+.largeText{
+    width: 60%;
+}
+a{
+    color: currentColor;
+    background-color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 2vw;
+    display: inline-block;
+}
+.note{
+    color: red;
+    font-size: 1.4vw;
+    padding: 3vw 0;
+}
+.note span{
+    color: blueviolet;
+}

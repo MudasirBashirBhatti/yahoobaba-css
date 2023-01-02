@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nth of type and nth last of type</title>
+    <style>
+        li:nth-of-type(2){
+            color: red;
+        }
+        li:nth-last-of-type(2){
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>nth-of-type( )</h1>
+    The difference between nth-child and nth nth-last-of-type is the nth-child required a parent to target child.but nth-last-of-type do not required any parent to target the child.
+
+    <ul class="first">
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Dignissimos incidunt esse officiis quidem.</li>
+        <li>Illo labore hic saepe blanditiis.</li>
+        <li>Perspiciatis molestias quae laborum maiores?</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+    </ul>
+
+    <ul class="second">
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Dignissimos incidunt esse officiis quidem.</li>
+        <li>Illo labore hic saepe blanditiis.</li>
+        <li>Perspiciatis molestias quae laborum maiores?</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+        <li>Dolore, perspiciatis. Iste, sint mollitia!</li>
+    </ul>
+<h1>nth-last-of-type( )</h1>
+    <ul class="third">
+        <li>Lorem ipsum dolor sit.</li>
+        <li>Adipisci tempora pariatur unde.</li>
+        <li>Pariatur quia accusamus molestiae?</li>
+        <li>Quisquam quas repudiandae aliquid?</li>
+    </ul>
+</body>
+</html>

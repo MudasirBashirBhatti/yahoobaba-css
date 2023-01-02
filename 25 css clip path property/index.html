@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clip-path property</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>clip-path property</h1>
+    <div class="web">
+    website to make clip paths
+    <a href="https://www.bennettfeely.com/clipy">www.bennettfeely.com/clipy</a>
+    </div>
+    <ol>
+        clip path property has four values
+        <li>circle</li>
+        <li>ellipse</li>
+        <li>inset</li>
+        <li>polygon</li>
+    </ol>
+    <hr>
+<!-- ................................ circle ............................  -->
+<h2>circle</h2>
+clip-path : circle (radius at distance-from-x-axis distance-from-y-axis) <br>
+clip-path : circle (30% at 50% 50%)
+    <div class="circle">
+        <img src="./Hydrangeas.jpg" alt="">
+    </div>
+    <hr>
+<!-- ................................ ellipse ............................  -->
+<h2>elipse</h2>
+clip-path : ellipse (horizontal-radius &nbsp;&nbsp;&nbsp; verticle-radius &nbsp;&nbsp;&nbsp; at &nbsp;&nbsp;&nbsp; distance-from-x-axis &nbsp;&nbsp;&nbsp; distance-from-y-axis) <br>
+clip-path : elipse (30%  40% at 50% 50%)
+    <div class="ellipse">
+        <img src="./Hydrangeas.jpg" alt="">
+    </div>
+    <hr>
+
+<!-- ................................ inset ............................  -->
+<h2>inset</h2>
+clip-path : inset (top &nbsp;&nbsp;&nbsp; right &nbsp;&nbsp;&nbsp; bottom &nbsp;&nbsp;&nbsp; left) <br>
+clip-path : inset (50% 20% 30% 20%)
+    <div class="inset">
+        <img src="./Hydrangeas.jpg" alt="">
+    </div>
+    <hr>
+
+<!-- ................................ inset ............................  -->
+<h2>polygon</h2>
+<h3>we can make as many points as we like in polygon. we can draw any shape we like. i.e. stars.</h3>
+clip-path : polygon (x-axis,y-axis &nbsp;&nbsp;&nbsp; x-axis,y-axis &nbsp;&nbsp;&nbsp; x-axis,y-axis ......) <br>
+clip-path : inset (50% 0%, 0% 100%, 100% 100%)
+    <div class="polygon">
+        <img src="./Hydrangeas.jpg" alt="">
+    </div>
+    <hr>
+
+<!-- ................................ apply clip path on div .........................  -->
+<h2>apply clip path on div</h2>
+<h3>we can clip any div also</h3>
+    <div class="div_clip"></div>
+    <hr>
+</body>
+</html>

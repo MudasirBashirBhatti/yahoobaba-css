@@ -1,0 +1,17 @@
+/* :placeholder-shown works only two tags 1 input and 2 textarea  */
+input{
+    width: 20%;
+    margin: 10px 0;
+    border: 3px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+input:placeholder-shown{
+    border:3px solid red;
+}
+input[type="text"]:placeholder-shown{  /*this will target only the text input*/
+    border:3px solid rgb(49, 133, 0);
+}
+input:placeholder-shown{
+    border: 3px solid orange;
+}

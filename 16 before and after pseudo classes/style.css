@@ -1,0 +1,22 @@
+
+h1{
+    color: red;
+    font-size: 3vw;
+    text-align: center;
+}
+._before{
+    border: 1px solid red;
+}
+._before::before{
+    content:"How";
+    color:green;
+    display: block;
+}
+._after{
+    border: 1px solid violet;
+}
+._after::after{
+    content: "you?";
+    color: blueviolet;
+    display: block;
+}

@@ -1,0 +1,69 @@
+h1{
+    color: red;
+    border-bottom: 2px solid red;
+    text-align: center;
+}
+h2{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+h3{
+    color: white;
+    background-color: rgb(0, 129, 168);
+}
+.width{
+    width: 50vw;
+    height:5vw;
+    line-height: 5vw;
+    text-align: center;
+}
+.one-width{
+    border: 1px solid;
+}
+.two-width{
+    border: 3px solid;
+}
+.three-width{
+    border: 6px solid;
+}
+
+/* ..........................border style.....................................  */
+.solid{
+    border: 6px solid;
+}
+.dashed{
+    border: 6px dashed;
+}
+.dotted{
+    border: 6px dotted;
+}
+.groove{
+    border: 6px groove;
+}
+.hidden{
+    border: 6px hidden;
+}
+.outset{
+    border: 6px outset;
+}
+.inset{
+    border: 6px inset;
+}
+.ridge{
+    border: 6px ridge;
+}
+.double{
+    border: 6px double;
+}
+.none{
+    border: 6px none;
+}
+
+/* ......................border color  .........................  */
+.bcolor{
+    border-top: 6px solid red;
+    border-left: 6px dashed green;
+    border-bottom: 6px outset orange;
+    border-right: 6px double mediumslateblue;
+    
+}

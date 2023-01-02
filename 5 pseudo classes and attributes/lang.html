@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>not pseudo element</title>
+
+    <style>
+        /* This will only target the language */
+        p:lang(en){
+            color: red;
+        }
+        p:lang(fr){
+            color: blueviolet;
+        }
+        p:lang(de){
+            color: green;
+        }
+    </style>
+
+</head>
+<body>
+    <p lang="en">This is written in english</p>
+
+    <p lang="fr" >This is written in french</p>
+
+    <p lang="de">This is written in de language</p>
+</body>
+</html>

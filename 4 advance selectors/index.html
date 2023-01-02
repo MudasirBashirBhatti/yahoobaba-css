@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced css selector</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Simple Selectors</h1>
+      <h2>Type selectors</h2>
+      <p>p{ select tag name }</p>
+      <h2>Class selectors</h2>
+      <p>.class{ select class }</p>
+      <h2>id selector</h2>
+      <p>#id{ select id }</p>
+    </div>
+    <hr />
+    <!-- universal selectors  -->
+    <div class="content">
+      <h1>Universal Selectors</h1>
+      <p>* {It selects all tags in our page}</p>
+      <p>#box *{color:red} ---> This will color all tags of box id</p>
+    </div>
+    <hr />
+
+    <!-- css combinator selectors  -->
+    <div class="content">
+      <h1>Combinator Selectors</h1>
+      <h2>descendent selector</h2>
+      <p>.box p{ this will select p tag of box class. }</p>
+      <p>p span{ this will select span tag of p element. }</p>
+      <p>
+        div p span{ this will select span tag of p element which is also in div
+        element. }
+      </p>
+
+      <h2>direct child selectors</h2>
+      <p>
+        .box h1{ this will select the h1 tag of class box which is direct child.
+        }
+      </p>
+      <h2>adjescent sibling selector</h2>
+      <p>
+        div + p{ this will select immidiate sibling after div.e.g it will select
+        p tag just after div tag. }
+      </p>
+      <h2>General sibling selector</h2>
+      <p>div ~ p{ this will select all sibling p after div. }</p>
+    </div>
+    <hr />
+    <!---------------------- attribute selectors -------------------->
+
+    <div class="content">
+      <h1>Attribute Selectors</h1>
+      <p>below are 7 attribute selector types</p>
+      <ul>
+        <li>A[attr]<span>------Element with specific attribute</span> </li><br>
+        <li>A[attr = val] <span>------select attribute only whose value is exactly match e.g input[type = 'text'], it will select on input whose type is text.</span> </li><br>
+        <li>A[attr ^= val] <span>------It will select only that attribute whose value starts with a particular word.e.g.img[title ='image']</span> </li><br>
+        <li>A[attr |= val]<span>------ Attribute begins with value OR is first in dashed separated list. Must starting with a value and the value has a hyphen(-). e.g. img[title = 'image-of']</span></li><br>
+        <li>A[attr $= val]<span>------ Attribute ends with the value.e.g. if image has value and the value ends with cat then it will be selected.img[title = 'my cat']</span></li><br>
+        <li>A[attr *= val]<span>------ value occours anywhere in attribute e.g. img[title = 'of'] this will select all that images whose title has 'of'.</span></li><br>
+        <li>A[attr ~= val] <span>------ value matches attribute in space separated list.img[title = 'of'] it will select that images whose value has of and before and after space is availble. </span></li><br>
+      </ul>
+
+
+    </div>
+    <hr />
+  </body>
+</html>

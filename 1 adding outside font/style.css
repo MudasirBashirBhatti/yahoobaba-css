@@ -1,0 +1,7 @@
+@font-face {
+    font-family:myFont;
+    src: url(./fonts/Arizonia-Regular.ttf);
+}
+#font{
+    font-family: myFont;
+}

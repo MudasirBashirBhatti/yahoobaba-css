@@ -1,0 +1,17 @@
+ol{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.col1{
+    color: green;
+}
+.col2{
+    color: blue;
+}
+.col3{
+    color: rgb(255, 75, 186);
+}
+.col4{
+    color: blueviolet;
+}

@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    border-bottom: 3px solid red;
+    font-size: 3.4vw;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+}
+.h-offset{
+    box-shadow: 10px 0px;
+    /* box-shadow: -10px 0px ; */
+}
+.v-offset{
+    box-shadow: 0px 10px;
+    /* box-shadow: 0px -10px; */
+}
+.blur{
+    box-shadow: 10px 10px 10px;
+}
+.spread{
+    box-shadow: 10px 10px 10px 10px;
+}
+.color{
+    box-shadow: 10px 10px 10px 0px green;
+}
+.inset{
+    box-shadow: inset 10px 10px 10px 0px red;
+}
+.two_shadows {
+    box-shadow:inset 3px 3px 5px rgb(0, 0, 0),
+    inset -3px -3px 5px red;
+    border: none;
+    border-radius: 50%;
+}

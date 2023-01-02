@@ -1,0 +1,20 @@
+body{
+    /* to add multiple images  */
+    background-image: url(./Penguins.jpg),url(./Tulips.jpg);
+    background-position: 10% 60%, 40% 10%;
+    background-size: 30% , 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+h1{
+    font-size: 3vw;
+    color: red;
+    text-align: center;
+}
+ol li{
+    list-style-position: inside;
+}
+span{
+    color: brown;
+}

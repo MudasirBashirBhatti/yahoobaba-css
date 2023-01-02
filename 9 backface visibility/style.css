@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(212, 212, 212);
+}
+h1{
+    color: red;
+    font-size: 3vw;
+    text-align: center;
+}
+ol li{
+    list-style-position: inside;
+}
+p{
+    color: blue;
+}
+
+/* example css starts from here  */
+.card{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -20%);
+    /*the perspective property will stretch the div while rotating */
+    perspective: 500px;   
+    cursor: pointer;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+    /* transform-style property will helps us to look in 3d view and other face on rotating */
+    transform-style: preserve-3d;
+    
+
+}
+.front , .back{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    color: tomato;
+    font-size: 4vw;
+    text-align: center;
+    line-height: 300px;
+    backface-visibility: hidden;
+    border-radius: 1vw;
+
+}
+.back{
+        background-color: tomato;
+        color: #fff;
+        transform: rotateY(180deg);
+}
+.card:hover .content{
+    transform: rotateY(180deg);
+}

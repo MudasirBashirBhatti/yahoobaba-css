@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    border-bottom: 3px solid red;
+    text-align: center;
+}
+input{
+    width: 30vw;
+    height: 3vw;
+    font-size: 2vw;
+}
+.caret{
+    /* caret-color: transparent; */
+    /* caret-color: blue; */
+    caret-color: red;
+}
+

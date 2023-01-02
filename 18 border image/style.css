@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    font-size: 3vw;
+    text-align: center;
+    border-bottom: 2px solid red;
+}
+ol{
+    font-size: 2vw;
+}
+
+/* ............................................................  */
+.box{
+    width: 300px;
+    height: 300px;
+    border: 25px solid black;
+    padding: 2em;
+    text-align: justify;
+}

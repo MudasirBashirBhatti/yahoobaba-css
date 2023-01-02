@@ -1,0 +1,81 @@
+body{
+    background-color: black;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border: 2px solid gray;
+    float: left;
+    margin: 1em;
+    border-radius: 50%;
+}
+
+/* box1 styling starts from here  */
+.box1{
+    background-image: conic-gradient(red,yellow,green);
+}
+
+
+/* box2 styling starts from here  */
+.box2{
+    /* from 45deg will rotate the gradient  */
+    background-image: conic-gradient(from 45deg, red,yellow,green);
+}
+
+/* box3 styling starts from here  */
+.box3{
+    background-image: conic-gradient(red,yellow,green,red);
+}
+
+/* box4 styling starts from here  */
+.box4{
+    /* this will rotate the center point  */
+    background-image: conic-gradient(at 40% 50%,red,yellow,green);
+}
+
+/* box5 styling starts from here  */
+.box5{
+    /* this will fill red color completely till 90deg and then starts to fade  */
+    background-image: conic-gradient(red 90deg,yellow,green);
+}
+
+/* box6 styling starts from here  */
+.box6{
+    /* this will fill red color completely till 90deg and then starts to fade  */
+    background-image: repeating-conic-gradient(red 0deg,red 20deg, yellow 20deg, yellow 30deg);
+    animation-name: mykey;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    border: none;
+}
+
+/* box7 styling starts from here  */
+.box7{
+    background-image: repeating-conic-gradient(yellow 0deg,yellow 90deg, black 90deg, black 180deg);
+
+    animation-name: mykey;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction:alternate;
+    border: 1px solid yellow;
+}
+.box8{
+    background-image: repeating-conic-gradient(yellow 0deg,yellow 90deg, black 90deg, black 180deg);
+    background-size: 20px 20px;
+
+    animation-name: mykey;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction:alternate;
+    border: none;
+}
+
+@keyframes mykey {
+    0%{
+        rotate: 0deg;
+    }
+    100%{
+        rotate:360deg;
+    }
+}

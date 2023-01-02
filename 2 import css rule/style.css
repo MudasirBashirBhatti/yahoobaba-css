@@ -1,0 +1,13 @@
+/* There are four types of media in import rule 
+1) all
+2) print
+3) screen
+4) speech
+*/
+@import url(./print.css) print;  /* this code will only work when we print the page.*/
+
+@import url(./style2.css);  /*This line has import the style2.css*/
+
+h1{
+    color: red;
+}

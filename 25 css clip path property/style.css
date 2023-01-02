@@ -1,0 +1,39 @@
+h1{
+    color: red;
+    font-size: 3.3vw;
+    border-bottom: 3px solid red;
+    text-align: center;
+}
+.circle img{
+    width: 30%;
+    clip-path: circle(30% at 50% 50%);
+    /* clip-path: circle(30% at 40% 60%); */
+}
+
+.ellipse img{
+    width: 30%;
+    clip-path: ellipse(20% 40% at 50% 50%);
+    /* clip-path: ellipse(40% 20% at 45% 50%); */
+}
+.inset img{
+    width: 30%;
+    clip-path : inset(50% 20% 30% 20%);
+}
+.polygon img{
+    width: 30%;
+    /* clip-path : polygon(50% 0%, 0% 100%, 30% 20%, 100% 100%) */
+    clip-path : polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.web{
+    background-color: cornsilk;
+}
+.div_clip{
+    width: 400px;
+    height: 400px;
+    background-color: crimson;
+    clip-path : polygon(50% 0%, 0% 100%, 40% 20%, 100% 100%);
+}
+h2{
+    color: rgb(255, 255, 255);
+    background-color: orangered;
+}

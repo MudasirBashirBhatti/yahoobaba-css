@@ -1,0 +1,41 @@
+h1{
+    color: red;
+    font-size: 3vw;
+    text-align: center;
+    border-bottom: 3px solid red;
+}
+
+.counter_heading{
+font-size: 2vw;
+color: green;
+}
+.counter_heading span{
+    color: blueviolet;
+}
+
+/* ............................ example starts from here ..........................  */
+body{
+    counter-reset: my_counter 0;
+    /* counter-reset: my_counter 10; */
+}
+h2::before{
+    content: "Chapter " counter(my_counter) " : ";
+
+    /* content: "Chapter " counter(my_counter , upper-alpha) " : "; */
+    /* content: "Chapter " counter(my_counter , upper-roman) " : "; */
+    /* content: "Chapter " counter(my_counter , upper-latin) " : "; */
+
+    /* content: "Chapter " counter(my_counter , lower-latin) " : "; */
+    /* content: "Chapter " counter(my_counter , lower-roman) " : "; */
+    /* content: "Chapter " counter(my_counter , lower-alpha) " : "; */
+
+
+    counter-increment: my_counter 1;
+    /* counter-increment: my_counter 5; */
+    
+    color: blue;
+    border-bottom: 2px solid blue;
+    padding: 3px;
+    display: inline-block;
+    background-color: yellow;
+}
